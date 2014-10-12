@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewController_PickerDate.h
 //  HW3_ShareInfo
 //
 //  Created by Edgar González on 12/10/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController_PickerDate : UIViewController
 
 @end
-

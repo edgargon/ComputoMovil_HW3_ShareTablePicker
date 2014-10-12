@@ -9,11 +9,26 @@
 /* Begin PBXBuildFile section */
 		2CFAC3F519EB0FAC00345D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC3F419EB0FAC00345D34 /* main.m */; };
 		2CFAC3F819EB0FAC00345D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC3F719EB0FAC00345D34 /* AppDelegate.m */; };
-		2CFAC3FB19EB0FAC00345D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC3FA19EB0FAC00345D34 /* ViewController.m */; };
 		2CFAC3FE19EB0FAC00345D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC3FC19EB0FAC00345D34 /* Main.storyboard */; };
 		2CFAC40019EB0FAC00345D34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC3FF19EB0FAC00345D34 /* Images.xcassets */; };
 		2CFAC40319EB0FAC00345D34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC40119EB0FAC00345D34 /* LaunchScreen.xib */; };
 		2CFAC40F19EB0FAC00345D34 /* HW3_ShareInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC40E19EB0FAC00345D34 /* HW3_ShareInfoTests.m */; };
+		2CFAC41A19EB102E00345D34 /* TabBarClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC41919EB102E00345D34 /* TabBarClass.m */; };
+		2CFAC41D19EB132900345D34 /* Cell_Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC41C19EB132900345D34 /* Cell_Table.m */; };
+		2CFAC42019EB13D900345D34 /* ViewController_Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC41F19EB13D900345D34 /* ViewController_Table.m */; };
+		2CFAC42319EB13EB00345D34 /* ViewController_Picker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC42219EB13EB00345D34 /* ViewController_Picker.m */; };
+		2CFAC42619EB140D00345D34 /* ViewController_PickerDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC42519EB140D00345D34 /* ViewController_PickerDate.m */; };
+		2CFAC43219EB1E6900345D34 /* A3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC42819EB1E6900345D34 /* A3.jpg */; };
+		2CFAC43319EB1E6900345D34 /* Atittude.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC42919EB1E6900345D34 /* Atittude.JPG */; };
+		2CFAC43419EB1E6900345D34 /* Dart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC42A19EB1E6900345D34 /* Dart.jpg */; };
+		2CFAC43519EB1E6900345D34 /* Fiesta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC42B19EB1E6900345D34 /* Fiesta.jpg */; };
+		2CFAC43619EB1E6900345D34 /* fusion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC42C19EB1E6900345D34 /* fusion.jpg */; };
+		2CFAC43719EB1E6900345D34 /* Ibiza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC42D19EB1E6900345D34 /* Ibiza.jpg */; };
+		2CFAC43819EB1E6900345D34 /* Leon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC42E19EB1E6900345D34 /* Leon.jpg */; };
+		2CFAC43919EB1E6900345D34 /* Mazda3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC42F19EB1E6900345D34 /* Mazda3.jpg */; };
+		2CFAC43A19EB1E6900345D34 /* Nissan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC43019EB1E6900345D34 /* Nissan.jpg */; };
+		2CFAC43B19EB1E6900345D34 /* Sonic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC43119EB1E6900345D34 /* Sonic.jpg */; };
+		2CFAC43D19EB232200345D34 /* batimovil2014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC43C19EB232200345D34 /* batimovil2014.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +47,33 @@
 		2CFAC3F419EB0FAC00345D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CFAC3F619EB0FAC00345D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CFAC3F719EB0FAC00345D34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2CFAC3F919EB0FAC00345D34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2CFAC3FA19EB0FAC00345D34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2CFAC3FD19EB0FAC00345D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CFAC3FF19EB0FAC00345D34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2CFAC40219EB0FAC00345D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2CFAC40819EB0FAC00345D34 /* HW3_ShareInfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW3_ShareInfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFAC40D19EB0FAC00345D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CFAC40E19EB0FAC00345D34 /* HW3_ShareInfoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW3_ShareInfoTests.m; sourceTree = "<group>"; };
+		2CFAC41819EB102E00345D34 /* TabBarClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarClass.h; path = ../TabBarClass.h; sourceTree = "<group>"; };
+		2CFAC41919EB102E00345D34 /* TabBarClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarClass.m; path = ../TabBarClass.m; sourceTree = "<group>"; };
+		2CFAC41B19EB132900345D34 /* Cell_Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_Table.h; sourceTree = "<group>"; };
+		2CFAC41C19EB132900345D34 /* Cell_Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_Table.m; sourceTree = "<group>"; };
+		2CFAC41E19EB13D900345D34 /* ViewController_Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController_Table.h; path = ../ViewController_Table.h; sourceTree = "<group>"; };
+		2CFAC41F19EB13D900345D34 /* ViewController_Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController_Table.m; path = ../ViewController_Table.m; sourceTree = "<group>"; };
+		2CFAC42119EB13EB00345D34 /* ViewController_Picker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController_Picker.h; path = ../ViewController_Picker.h; sourceTree = "<group>"; };
+		2CFAC42219EB13EB00345D34 /* ViewController_Picker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController_Picker.m; path = ../ViewController_Picker.m; sourceTree = "<group>"; };
+		2CFAC42419EB140D00345D34 /* ViewController_PickerDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController_PickerDate.h; path = ../ViewController_PickerDate.h; sourceTree = "<group>"; };
+		2CFAC42519EB140D00345D34 /* ViewController_PickerDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController_PickerDate.m; path = ../ViewController_PickerDate.m; sourceTree = "<group>"; };
+		2CFAC42819EB1E6900345D34 /* A3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = A3.jpg; sourceTree = "<group>"; };
+		2CFAC42919EB1E6900345D34 /* Atittude.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Atittude.JPG; sourceTree = "<group>"; };
+		2CFAC42A19EB1E6900345D34 /* Dart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dart.jpg; sourceTree = "<group>"; };
+		2CFAC42B19EB1E6900345D34 /* Fiesta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fiesta.jpg; sourceTree = "<group>"; };
+		2CFAC42C19EB1E6900345D34 /* fusion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fusion.jpg; sourceTree = "<group>"; };
+		2CFAC42D19EB1E6900345D34 /* Ibiza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ibiza.jpg; sourceTree = "<group>"; };
+		2CFAC42E19EB1E6900345D34 /* Leon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Leon.jpg; sourceTree = "<group>"; };
+		2CFAC42F19EB1E6900345D34 /* Mazda3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mazda3.jpg; sourceTree = "<group>"; };
+		2CFAC43019EB1E6900345D34 /* Nissan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nissan.jpg; sourceTree = "<group>"; };
+		2CFAC43119EB1E6900345D34 /* Sonic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sonic.jpg; sourceTree = "<group>"; };
+		2CFAC43C19EB232200345D34 /* batimovil2014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batimovil2014.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +117,14 @@
 			children = (
 				2CFAC3F619EB0FAC00345D34 /* AppDelegate.h */,
 				2CFAC3F719EB0FAC00345D34 /* AppDelegate.m */,
-				2CFAC3F919EB0FAC00345D34 /* ViewController.h */,
-				2CFAC3FA19EB0FAC00345D34 /* ViewController.m */,
+				2CFAC41819EB102E00345D34 /* TabBarClass.h */,
+				2CFAC41919EB102E00345D34 /* TabBarClass.m */,
+				2CFAC41E19EB13D900345D34 /* ViewController_Table.h */,
+				2CFAC41F19EB13D900345D34 /* ViewController_Table.m */,
+				2CFAC42119EB13EB00345D34 /* ViewController_Picker.h */,
+				2CFAC42219EB13EB00345D34 /* ViewController_Picker.m */,
+				2CFAC42419EB140D00345D34 /* ViewController_PickerDate.h */,
+				2CFAC42519EB140D00345D34 /* ViewController_PickerDate.m */,
 				2CFAC3FC19EB0FAC00345D34 /* Main.storyboard */,
 				2CFAC3FF19EB0FAC00345D34 /* Images.xcassets */,
 				2CFAC40119EB0FAC00345D34 /* LaunchScreen.xib */,
@@ -96,8 +136,11 @@
 		2CFAC3F219EB0FAC00345D34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CFAC42719EB1E6900345D34 /* img */,
 				2CFAC3F319EB0FAC00345D34 /* Info.plist */,
 				2CFAC3F419EB0FAC00345D34 /* main.m */,
+				2CFAC41B19EB132900345D34 /* Cell_Table.h */,
+				2CFAC41C19EB132900345D34 /* Cell_Table.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,6 +161,24 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		2CFAC42719EB1E6900345D34 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAC43C19EB232200345D34 /* batimovil2014.jpg */,
+				2CFAC42819EB1E6900345D34 /* A3.jpg */,
+				2CFAC42919EB1E6900345D34 /* Atittude.JPG */,
+				2CFAC42A19EB1E6900345D34 /* Dart.jpg */,
+				2CFAC42B19EB1E6900345D34 /* Fiesta.jpg */,
+				2CFAC42C19EB1E6900345D34 /* fusion.jpg */,
+				2CFAC42D19EB1E6900345D34 /* Ibiza.jpg */,
+				2CFAC42E19EB1E6900345D34 /* Leon.jpg */,
+				2CFAC42F19EB1E6900345D34 /* Mazda3.jpg */,
+				2CFAC43019EB1E6900345D34 /* Nissan.jpg */,
+				2CFAC43119EB1E6900345D34 /* Sonic.jpg */,
+			);
+			path = img;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -199,7 +260,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFAC43519EB1E6900345D34 /* Fiesta.jpg in Resources */,
 				2CFAC3FE19EB0FAC00345D34 /* Main.storyboard in Resources */,
+				2CFAC43319EB1E6900345D34 /* Atittude.JPG in Resources */,
+				2CFAC43419EB1E6900345D34 /* Dart.jpg in Resources */,
+				2CFAC43D19EB232200345D34 /* batimovil2014.jpg in Resources */,
+				2CFAC43219EB1E6900345D34 /* A3.jpg in Resources */,
+				2CFAC43B19EB1E6900345D34 /* Sonic.jpg in Resources */,
+				2CFAC43619EB1E6900345D34 /* fusion.jpg in Resources */,
+				2CFAC43719EB1E6900345D34 /* Ibiza.jpg in Resources */,
+				2CFAC43819EB1E6900345D34 /* Leon.jpg in Resources */,
+				2CFAC43919EB1E6900345D34 /* Mazda3.jpg in Resources */,
+				2CFAC43A19EB1E6900345D34 /* Nissan.jpg in Resources */,
 				2CFAC40319EB0FAC00345D34 /* LaunchScreen.xib in Resources */,
 				2CFAC40019EB0FAC00345D34 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFAC3FB19EB0FAC00345D34 /* ViewController.m in Sources */,
+				2CFAC42319EB13EB00345D34 /* ViewController_Picker.m in Sources */,
 				2CFAC3F819EB0FAC00345D34 /* AppDelegate.m in Sources */,
+				2CFAC41A19EB102E00345D34 /* TabBarClass.m in Sources */,
+				2CFAC42019EB13D900345D34 /* ViewController_Table.m in Sources */,
+				2CFAC41D19EB132900345D34 /* Cell_Table.m in Sources */,
+				2CFAC42619EB140D00345D34 /* ViewController_PickerDate.m in Sources */,
 				2CFAC3F519EB0FAC00345D34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
