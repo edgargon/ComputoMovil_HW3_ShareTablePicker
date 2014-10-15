@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0C4FB819EE1D5E00657D4E /* AEROMEXICO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0C4FB419EE1D5E00657D4E /* AEROMEXICO.jpg */; };
+		2C0C4FB919EE1D5E00657D4E /* interjet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0C4FB519EE1D5E00657D4E /* interjet.jpg */; };
+		2C0C4FBA19EE1D5E00657D4E /* vivaaerobus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0C4FB619EE1D5E00657D4E /* vivaaerobus.jpeg */; };
+		2C0C4FBB19EE1D5E00657D4E /* volaris.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0C4FB719EE1D5E00657D4E /* volaris.jpeg */; };
 		2CFAC3F519EB0FAC00345D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC3F419EB0FAC00345D34 /* main.m */; };
 		2CFAC3F819EB0FAC00345D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAC3F719EB0FAC00345D34 /* AppDelegate.m */; };
 		2CFAC3FE19EB0FAC00345D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAC3FC19EB0FAC00345D34 /* Main.storyboard */; };
@@ -42,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C0C4FB419EE1D5E00657D4E /* AEROMEXICO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AEROMEXICO.jpg; sourceTree = "<group>"; };
+		2C0C4FB519EE1D5E00657D4E /* interjet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = interjet.jpg; sourceTree = "<group>"; };
+		2C0C4FB619EE1D5E00657D4E /* vivaaerobus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vivaaerobus.jpeg; sourceTree = "<group>"; };
+		2C0C4FB719EE1D5E00657D4E /* volaris.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volaris.jpeg; sourceTree = "<group>"; };
 		2CFAC3EF19EB0FAC00345D34 /* HW3_ShareInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3_ShareInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFAC3F319EB0FAC00345D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CFAC3F419EB0FAC00345D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -165,6 +173,10 @@
 		2CFAC42719EB1E6900345D34 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				2C0C4FB419EE1D5E00657D4E /* AEROMEXICO.jpg */,
+				2C0C4FB519EE1D5E00657D4E /* interjet.jpg */,
+				2C0C4FB619EE1D5E00657D4E /* vivaaerobus.jpeg */,
+				2C0C4FB719EE1D5E00657D4E /* volaris.jpeg */,
 				2CFAC43C19EB232200345D34 /* batimovil2014.jpg */,
 				2CFAC42819EB1E6900345D34 /* A3.jpg */,
 				2CFAC42919EB1E6900345D34 /* Atittude.JPG */,
@@ -260,9 +272,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0C4FB919EE1D5E00657D4E /* interjet.jpg in Resources */,
 				2CFAC43519EB1E6900345D34 /* Fiesta.jpg in Resources */,
 				2CFAC3FE19EB0FAC00345D34 /* Main.storyboard in Resources */,
 				2CFAC43319EB1E6900345D34 /* Atittude.JPG in Resources */,
+				2C0C4FBA19EE1D5E00657D4E /* vivaaerobus.jpeg in Resources */,
 				2CFAC43419EB1E6900345D34 /* Dart.jpg in Resources */,
 				2CFAC43D19EB232200345D34 /* batimovil2014.jpg in Resources */,
 				2CFAC43219EB1E6900345D34 /* A3.jpg in Resources */,
@@ -272,8 +286,10 @@
 				2CFAC43819EB1E6900345D34 /* Leon.jpg in Resources */,
 				2CFAC43919EB1E6900345D34 /* Mazda3.jpg in Resources */,
 				2CFAC43A19EB1E6900345D34 /* Nissan.jpg in Resources */,
+				2C0C4FBB19EE1D5E00657D4E /* volaris.jpeg in Resources */,
 				2CFAC40319EB0FAC00345D34 /* LaunchScreen.xib in Resources */,
 				2CFAC40019EB0FAC00345D34 /* Images.xcassets in Resources */,
+				2C0C4FB819EE1D5E00657D4E /* AEROMEXICO.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +504,7 @@
 				2CFAC41419EB0FAC00345D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CFAC41519EB0FAC00345D34 /* Build configuration list for PBXNativeTarget "HW3_ShareInfoTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +513,7 @@
 				2CFAC41719EB0FAC00345D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

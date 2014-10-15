@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController_Picker : UIViewController
+@property (strong, nonatomic) IBOutlet UIPickerView *picker_Avion;
 
 @end
