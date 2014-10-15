@@ -124,10 +124,54 @@
                     <view key="view" contentMode="scaleToFill" id="Hzt-NJ-zoh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="sYb-tT-hEK">
+                                <rect key="frame" x="0.0" y="55" width="320" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="435036753.33245701">
+                                    <!--2014-10-15 03:32:33 +0000-->
+                                </date>
+                            </datePicker>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Z15-Iq-dqc">
+                                <rect key="frame" x="0.0" y="246" width="320" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="435036938.08886099">
+                                    <!--2014-10-15 03:35:38 +0000-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wew-a5-Fba">
+                                <rect key="frame" x="16" y="461" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jU7-xw-TJH">
+                                <rect key="frame" x="231" y="481" width="73" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Compartir">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnCompartir:" destination="tNP-od-Eds" eventType="touchUpInside" id="SDy-He-krl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Sm-T6-sbe">
+                                <rect key="frame" x="62" y="431" width="197" height="27"/>
+                                <state key="normal" title="Diferencia entre fechas:">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn_CalcularDiferencia:" destination="tNP-od-Eds" eventType="touchUpInside" id="Cdq-Jz-oUm"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="PickerDate" id="uVX-u7-1E2"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="lbl_diferencia" destination="Wew-a5-Fba" id="lpI-f6-oea"/>
+                        <outlet property="pickerDate_1" destination="sYb-tT-hEK" id="MeL-32-xeH"/>
+                        <outlet property="pickerDate_2" destination="Z15-Iq-dqc" id="HX5-EM-eyV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gXH-qD-rSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
